@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin:auto;
+    
+}
+p{font-size: 18px;
+    color: #7E8081 ;
+    }
+a{
+    font-size:18px;
+    color: #000000 ;
+    }
+
+/* ------------BANNER-------------- */
+#banner{
+   
+    height: 400px;
+    width: 100%;
+    background-image: URL(./Images/banner.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    background-position:center center;
+}
+
+/* ----------HEADER-------- */
+
+header{
+    height:80px ;
+    width: 100%;
+    
+}
+
+li{
+  text-align: center;
+   /* background-color: green; */
+    display: inline-block;
+    margin: 0px;
+    padding-right: 10px; 
+    
+}
+li:hover{
+background-color: #797878 ;
+transition: 0.8s;
+border-radius: 18px;
+}
+
+.logo img{
+    display: inline-block;
+    background-size: 30%;
+}
+nav{
+    display: inline-block;
+}
+
+#header_fx {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* --------VIEW MORE--------- */
+
+
+
+.more_container {
+    width: 50vh;
+    /* width: 70%; */
+   
+    /* position: center; */
+    /* top:50%;
+    left:50%; */
+    margin-top: 50px;
+    
+   
+    text-align: center;
+ 
+}
+h4{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+    text-align: center;
+    justify-content: space-between;
+    
+
+}
+#text{
+    
+    width: 50vh;
+    height: 150px;
+}
+
+/* ------------BUTTON--------- */
+
+/* .button {
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+   background-color: blue; 
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+     background-color: rgb(0, 0, 0); 
+    color: rgb(0, 0, 0); 
+    border: 2px solid green;
+  }
+  
+  .button1:hover {
+    background-color: green;
+    color: white;
+  }
+   */
+  #button{
+      background-color: black;
+     text-align: center;
+     color: white;
+     width: auto;
+     /* height: 30px; */
+     padding:10px 40px 10px 40px;
+     border-radius: 7px; 
+    } 
+
+  
+
+/* -----------MIDDER----------- */
+
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+.service_main{
+    display: flex;
+    justify-content:center;
+    justify-content:space-between;
+}
+.service_inner{
+  display:inline-block;
+  width: 30%;
+  text-align: center;
+  background-color: #cfcfcf;
+  padding: 20px 20px;
+  margin-left: 15px ;
+color: rgb(0, 0, 0);
+ 
+
+}
+.service_inner:hover{
+    border-left: 6px solid red; 
+    border-right: 6px solid red; 
+background-color: rgb(195, 209, 4);
+transition: 0.8s;
+border-radius: 15px;
+}
+
+
+h2{
+    text-align: center;
+    padding-top:100px;
+    padding-bottom: 50px;
+}
+h3{
+    padding-top: 15px;
+}
+
+
+
+
+
+/* -----------FOOTER--------- */
+.footer{
+    padding: 30px 0;
+    width: 100%;
+    height: 80px;
+    background-color:white ;
+}
+
+
+/* ------QSELEBIS------ */
+.footer .social{
+     text-align:right; 
+     background-color: white;
+}
+.social .soc{
+    font-size: 24px;
+    color: inherit;  
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    margin: 0px 0px 20px 20px; 
+    padding-right: 20px;
+    opacity: 0.75;
+}
+ #socc{
+      color: green;
+      /* text-align: left; */
+     margin-right: 55%;
+  }
+
+
+
+/* none */
+   
